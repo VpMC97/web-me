@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><a href="index.html">&larr; Volver a la p&aacute;gina principal</a></p>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Ingreso de datos</legend>
+            <label for="name">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+            <br>
+            <label for="name">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su email">
+            <br><hr><br>
+            <label for="edad">Edad:</label>
+            <input type="range" id="edad" name="edad" min="18" max="100" value="18">
+            <br><hr><br>
+            <textarea name="cuadro" id="cuadro" placeholder="Ingrese su mensaje" rows="3" cols="30">
+                Elemento que permite el ingreso de información en varias lineas.
+            </textarea>
+            <br><hr><br>
+            <select name="opciones" id="opciones">
+                <option value="HTML">Unidad HTML</option>
+                <option value="PHP">Unidad PHP</option>
+                <option value="CSS">Unidad CSS</option>
+                <option value="INTRO">Introducción al curso</option>
+            </select>
+            <br><hr><br>
+            <select name="combo" id="combo">
+                <optgroup label="Bases de datos">
+                    <option value="Base1">Normalización</option>
+                    <option value="Base2">DDL</option>
+                </optgroup>
+                <optgroup label="Programación">
+                    <option value="Progra1">Programación I</option>
+                    <option value="Progra2">Programación II</option>
+                </optgroup>
+                <optgroup label="Contabilidad">
+                    <option value="Conta1">Contabilidad General</option>
+                </optgroup>
+                <optgroup label="Datos personales">
+                    <option value="Datos1">Viviana</option>
+                    <option value="Datos2">Isapamela</option>
+                </optgroup>
+            </select>
+            <br><hr><br>
+            <button type="button">
+                <img style="height: 100px; width: 100px;" src="/img/descarga.jpg" alt="OK">
+                <br>
+                Aceptar!
+            </button>
+            <br><hr><br>
+            <input name="email-address" type="email" required="required">
+
+            <input name="zip_code" type="text" pattern="\d{5}(-\d{4})?" required="required" />
+            <input name="profile_url" type="url" readonly="readonly" />
+            <input type="submit" disabled="disabled" />
+
+            <input name="issue_quantity" type="range" min="1" max="15" />
+            <input name="service_date" type="date" min="2000-01-01" max="2999-12-31">
+
+            <input name="api_key" type="text" autocomplete="off" />
+
+            <input name="account_name" type="text" placeholder="Account name must contain at least 4 characters." />
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+
+
+        
+    </form>
+</body>
+</html>

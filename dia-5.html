@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML PAGE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .block {
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            color: #222;
+        }
+        .block-1 { background: #f9c2ff; }
+        .block-2 { background: #c2e7ff; }
+        .block-3 { background: #d4f7c4; }
+        .block-4 { background: #ffd8a8; }
+        .inline-text {
+            display: inline-block;
+            padding: 4px 8px;
+            background: rgba(0,0,0,0.05);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="index.html">&larr; Volver a la p&aacute;gina principal</a></p>
+    <hr>
+    <div class="block block-1">
+        DIV es un elemento de nivel de bloque
+        <p>P es un elemento de nivel de bloque</p>
+        <p>El texto es dibujado en una línea nueva</p>
+    </div>
+
+    <div class="block block-2">
+        El texto es dibujado en una línea nueva
+        <span class="inline-text">SPAN es un elemento in-line que se dibuja en la misma línea</span>
+    </div>
+
+    <div class="block block-3">
+        <p>Este es un tercer bloque adicional.</p>
+        <p>También es un elemento de nivel de bloque.</p>
+    </div>
+
+    <div class="block block-4">
+        <p>Este es un cuarto bloque adicional.</p>
+        <p>Los bloques se apilan uno debajo del otro.</p>
+    </div>
+
+    <hr>
+    <p>Feedback: <a href="mailto:vmendez2@miumg.edu.gt?Subject=protocolo">Enviar correo con Subject</a></p>
+    <hr>
+    <a href="https://google.com" target="_blank">google.com</a>
+    <hr>
+    <a href="https://en.wikipedia.org/wiki/Media_queries?output=print" media="print and (resolution:250dpi)">Print wiki page about media queries</a>
+    <hr>
+    <a href="/assets/hello.txt" download="descarga.txt">descargar archivo</a>
+    <hr>
+    <img src="img/descarga.jpg" width="350" height="60" />
+</body>
+</html>

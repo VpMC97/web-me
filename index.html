@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Viviana Isapamela Mendez Ché">
+    <meta name="description" content="Ejercicio práctico #1: Elaborar una página en lenguaje HTML, CSS y/o Bootstrap.">
+    <title>Viviana Isapamela Mendez Ché</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="styles/autobiografia.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <a class="nav-marca" href="#inicio">Viviana</a>
+        <div class="nav-links">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#stack">Stack</a>
+            <a href="#practicas">Prácticas</a>
+            <a href="#certificaciones">Cursos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <p class="hero-rol">Desarrolladora web - UMG</p>
+        <h1>Viviana</h1>
+        <h2>Isapamela</h2>
+        <p class="hero-texto">
+            Estudiante de Ingeniería en Sistemas de la Universidad Mariano Gálvez de Guatemala.
+        </p>
+        <div class="hero-acciones">
+            <a class="btn" href="#sobre-mi">Conóceme</a>
+            <a class="btn btn-ghost" href="#contacto">Contacto</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="sobre-mi" class="seccion">
+            <p class="etiqueta">01 — Biografía</p>
+            <h2>Acerca de mí</h2>
+            <div class="grid-dos">
+                <div class="biografia">
+                    <p>
+                        Hey, me llamo <strong>Viviana Isapamela</strong>, mis amigos me llaman
+                        <em>Isa</em>. Estoy estudiando <strong>Ingeniería en Sistemas</strong> en la
+                        <strong>Universidad Mariano Gálvez</strong> y actualmente trabajo como
+                        <strong>Desarrolladora Web</strong>.
+                    </p>
+                    <p>
+                        Me gusta <u>aprender cosas nuevas</u> e intentar resolver problemas reales con código.
+                        Cada proyecto es una oportunidad para mejorar: desde un formulario hasta una
+                        <mark>aplicación web</mark> completa. Puedes ver algunos de mis proyectos en mi <a href="https://github.com/VpMC97/VpMC97.github.io" target="_blank" rel="noopener noreferrer"><code>GitHub</code></a>.
+                    </p>
+                    <p>
+                        <em>Siempre intentando ser mejor cada día.</em>
+                        En el camino conocer personas increíbles, vivir experiencias maravillosas y disfrutar del proceso.
+                        <br>
+                        En retrospectiva, estoy muy orgullosa de haber escogido esta carrera, donde pude adquirir nuevos conocimientos y perfeccionar mis habilidades.
+                    </p>
+                    <p>
+                        Hay una frase que siempre me ha motivado:
+                        <br>
+                        <q>Sé lo suficiente valiente como para ser malo en algo nuevo.</q>
+                    </p>
+                </div>
+                <aside class="datos">
+                    <figure class="foto-perfil">
+                        <img src="img/pfp.jpeg" alt="Fotografía de Viviana Isapamela Mendez Ché">
+                    </figure>
+                    <p><span>Edad</span> 21 años</p>
+                    <p><span>Puesto</span> Desarrolladora Web</p>
+                    <p><span>Correo</span> <a href="mailto:vmendez2@miumg.edu.gt" class="red-hint">vmendez2@miumg.edu.gt</a></p>
+                    <p><span>Carnet</span> 5190 - 23 - 3597</p>
+                </aside>
+            </div>
+        </section>
+
+        <section id="stack" class="seccion seccion-pastel">
+            <p class="etiqueta">02 — Trabajo</p>
+            <h2>Stack actual</h2>
+            <p class="ancho-lectura">
+                En el día a día construyo y mantengo aplicaciones web.
+            </p>
+            <ul class="stack-lista">
+                <li>Vue</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section id="practicas" class="seccion">
+            <p class="etiqueta">03 — Curso</p>
+            <h2>Prácticas recientes</h2>
+            <div class="practicas">
+                <a href="dia-2.html" class="practica">
+                    <span class="practica-num">Día 02</span>
+                    <strong>HTML base</strong>
+                    <span>Hola Mundo, caracteres reservados, formato y こんにちは</span>
+                </a>
+                <a href="dia-3.html" class="practica">
+                    <span class="practica-num">Día 03</span>
+                    <strong>Formularios</strong>
+                    <span>Inputs, fieldset, textarea, select y validaciones</span>
+                </a>
+                <a href="dia-4.html" class="practica">
+                    <span class="practica-num">Día 04</span>
+                    <strong>CSS externo</strong>
+                    <span>Header, article, footer y hojas de estilo</span>
+                </a>
+                <a href="dia-5.html" class="practica">
+                    <span class="practica-num">Día 05</span>
+                    <strong>Bloques div</strong>
+                    <span>Bloques div, elementos de nivel de bloque y elementos de nivel de línea</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="certificaciones" class="seccion seccion-menta">
+            <p class="etiqueta">04 — Cursos y certificaciones</p>
+            <h2>Formación complementaria</h2>
+            <p class="ancho-lectura">
+                En mi tiempo libre solía estudiar cursos online para mejorar mis habilidades y conocimientos.
+            </p>
+
+            <div class="cursos-lista">
+            <!-- Los 3 primeros siempre visibles -->
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">CS50's Introduction to Computer Science (2023)</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>Fundamentos de la informática, una introducción a las disciplinas intelectuales de la informática y al arte de la programación.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://www.youtube.com/watch?v=LfaMVlDaQ24" target="_blank" rel="noopener noreferrer">Hardvard CS50 &amp;
+                            freeCodeCamp.org</a>
+                    </span>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">English for IT 1</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>A course that teaches the English language in a specific IT context at the “B2” proficiency level which is a basic requirement for employment use.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://www.netacad.com/courses/english-for-it1?courseLang=en-US" target="_blank" rel="noopener noreferrer">Cisco &amp; OpenEDG</a>
+                    </span>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">React.js desde cero</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>React es una biblioteca de Javascript para crear interfaces web de usuario, tipicamente se usa para crear aplicaciones web frontend.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://www.youtube.com/watch?v=rLoWMU4L_qE" target="_blank" rel="noopener noreferrer">Fatz</a>
+                    </span>
+                </div>
+            </article>
+
+            <!-- Cursos ocultos hasta pulsar Ver más -->
+            <div class="cursos-extra">
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">Vue.js Fundamentals</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>Introducción a Vue 3. Desarrolla proyectos reales, profundiza en sus características fundamentales y crea aplicaciones dinámicas, reutilizables y reactivas con facilidad.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://scrimba.com/learn-vue-c0jrrpaasr" target="_blank" rel="noopener noreferrer">Scrimba</a>
+                    </span>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">Python desde cero</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>Domina las bases de Python, el lenguaje más popular para programación y desarrollo moderno. Aprende sobre los tipos de datos, estructuras de control y funciones para crear programas que realicen tareas específicas.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://midu.dev/curso/python-desde-cero" target="_blank" rel="noopener noreferrer">Midudev</a>
+                    </span>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">SQL desde CERO</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>En este curso de SQL vas a aprender a manejar SQL, el lenguaje mas usado del mundo para bases de datos relacionales, un lenguaje requisito para cualquier perfil IT.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://www.youtube.com/watch?v=DFg1V-rO6Pg" target="_blank" rel="noopener noreferrer">SoyDalto</a>
+                    </span>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">Desarrollo web desde cero</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>Aprende los inicios del desarrollo web paso a paso. Aprenderás HTML5, CSS3, Javascript.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://www.udemy.com/course/curso-de-desarrollo-web-desde-cero-html5-css3-javascript/?couponCode=PMNVD2525" target="_blank" rel="noopener noreferrer">Udemy</a>
+                    </span>
+                </div>
+            </article>
+            <article class="curso">
+                <div class="fila-dato">
+                    <span class="dato-nombre">Nombre del curso</span>
+                    <span class="dato-valor">Networking Basics</span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Descripción</span>
+                    <span class="dato-valor">
+                        <q>Internet se basa en redes informáticas. Empieza a aprender los fundamentos de las redes informáticas y descubre cómo funcionan.</q>
+                    </span>
+                </div>
+                <div class="fila-dato">
+                    <span class="dato-nombre">Curso</span>
+                    <span class="dato-valor">
+                        <a href="https://www.netacad.com/courses/networking-basics?courseLang=en-US" target="_blank" rel="noopener noreferrer">Cisco Networking Academy</a>
+                    </span>
+                </div>
+            </article>
+            </div>
+
+            <label class="ver-mas-btn">
+                <input type="checkbox" class="ver-mas-check">
+                <span class="texto-mas">Ver más</span>
+                <span class="texto-menos">Ver menos</span>
+            </label>
+            </div>
+
+        </section>
+        <section id="contacto" class="seccion seccion-lavanda">
+            <p class="etiqueta">05 — Contacto</p>
+            <h2>Hablemos ;)</h2>
+            <p class="ancho-lectura">
+                ¿Proyecto, duda de clase o simplemente saludar?
+            </p>
+            <ul class="redes">
+                <li>
+                    <a href="mailto:vmendez2@miumg.edu.gt">
+                        <span class="red-nombre">Correo</span>
+                        <span class="red-hint">vmendez2@miumg.edu.gt</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/VpMC97" target="_blank" rel="noopener noreferrer">
+                        <span class="red-nombre">GitHub</span>
+                        <span class="red-hint">Proyectos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/viviana-mendez-758b8130b/" target="_blank" rel="noopener noreferrer">
+                        <span class="red-nombre">LinkedIn</span>
+                        <span class="red-hint">Perfil profesional</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <p>2026 Viviana Mendez - Ingeniería en Sistemas — UMG</p>
+        <p class="pie-nota">Autobiografía - Programación Web</p>
+    </footer>
+</body>
+</html>
